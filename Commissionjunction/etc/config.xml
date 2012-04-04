@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Phillro_Commissionjunction>
+            <version>0.1.0</version>
+        </Phillro_Commissionjunction>
+    </modules>
+    <global>
+      <helpers>
+             <commissionjunction>
+                <class>Phillro_Commissionjunction_Helper</class>
+             </commissionjunction>
+        </helpers>
+
+    </global>
+        <frontend>
+              <routers>
+			<commissionjunction>
+				<use>standard</use>
+				<args>
+					<module>Phillro_Commissionjunction</module>
+					<frontName>commissionjunction</frontName>
+				</args>
+			</commissionjunction>
+		</routers>
+
+    </frontend>
+</config>
+
