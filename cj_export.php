@@ -1,4 +1,8 @@
 <?php
+/*
+Demonstrates running the CJ export functionality and saving the output to S3.
+
+*/
 //require_once $argv[1].'app/Mage.php';
 require_once './app/Mage.php';
 
